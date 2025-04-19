@@ -1,16 +1,51 @@
 body{
-    background-color: mediumpurple;
+    background: linear-gradient(180deg, rgb(38, 255, 255),rgb(62, 129, 246),rgb(25, 0, 139));
     color: rgb(200, 191, 247);
 }
 
 h1 {
-    font-family: fantasy;
     color: plum;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(49, 121, 255);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#leftBoxpoop{
+    background-color: #ff8dff;
+    color: darkmagenta;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    float: left;
+}
+
+#rightBox{
+    background-color: #ff8dff;
+    color: darkmagenta;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    float: left;
+    width: 40%;
+}
+
+#pfpBox{
+    background-color: #ab8dff;
+    color: aliceblue;
+    padding: 15px;
+    float: left;
 }
 
 #paraBox{
     padding: 20px;
+    color: #e1d6ff;
     background: linear-gradient(180deg, royalblue, rgb(125, 125, 211));
     border-radius: 10px;
     box-shadow:10px 10px 5px rgb(183, 65, 165);
+    float: right;
 }
