@@ -1,0 +1,19 @@
+h4{
+    float: center;
+}
+body{
+    background: linear-gradient(180deg, rgb(38, 255, 255),rgb(62, 129, 246),rgb(25, 0, 139));
+    color: rgb(200, 191, 247);
+    font-family: "Syne Mono", monospace;
+}
+
+h1 {
+    color: plum;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(49, 121, 255);
+    padding: 5px;
+    border-radius: 10px;
+}

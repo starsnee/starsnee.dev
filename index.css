@@ -1,6 +1,34 @@
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .gamja-flower-regular {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .zcool-qingke-huangyou-regular {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .syne-mono-regular {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 body{
     background: linear-gradient(180deg, rgb(38, 255, 255),rgb(62, 129, 246),rgb(25, 0, 139));
     color: rgb(200, 191, 247);
+    font-family: "Syne Mono", monospace;
 }
 
 h1 {
@@ -12,7 +40,19 @@ nav{
     background-color: rgb(49, 121, 255);
     padding: 5px;
     border-radius: 10px;
+}
 
+header{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#bodyBox{
+    background-color: rgb(212, 95, 255);
+    padding: 10px;
+    float: center;
 }
 
 #leftBoxpoop{
@@ -39,6 +79,7 @@ nav{
     color: aliceblue;
     padding: 15px;
     float: left;
+    border-radius: 10px;
 }
 
 #paraBox{
