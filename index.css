@@ -29,6 +29,7 @@ body{
     background: linear-gradient(180deg, rgb(38, 255, 255),rgb(62, 129, 246),rgb(25, 0, 139));
     color: rgb(200, 191, 247);
     font-family: "Syne Mono", monospace;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -40,19 +41,23 @@ nav{
     background-color: rgb(49, 121, 255);
     padding: 5px;
     border-radius: 10px;
+    text-align: center;
 }
 
 header{
     background-color: blueviolet;
     padding: 10px;
+    color: #e1d6ff;
     border-radius: 10px;
     margin: 5px;
 }
-
-#bodyBox{
+.flex-container{
+    display: flex;
     background-color: rgb(212, 95, 255);
     padding: 10px;
+    margin: 10%;
     float: center;
+    border-radius: 5px;
 }
 
 #leftBoxpoop{
@@ -89,4 +94,11 @@ header{
     border-radius: 10px;
     box-shadow:10px 10px 5px rgb(183, 65, 165);
     float: right;
+}
+
+footer{
+    background-color: rgb(18, 0, 97);
+    padding:10px;
+    border-radius: 10px;
+    text-align: center;
 }
