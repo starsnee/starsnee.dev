@@ -57,28 +57,30 @@ header{
 #leftBoxpoop{
     background-color: #ff8dff;
     color: darkmagenta;
-    padding: 15px;
-    margin: 15px;
+    padding: 1%;
+    margin: 5%;
     border-radius: 10px;
 }
 
 #rightBox{
     background-color: #ff8dff;
     color: darkmagenta;
-    padding: 15px;
-    margin: 15px;
+    padding: 1%;
+    margin: 5%;
+    margin-left: 1%;
     border-radius: 10px;
 }
 
 #pfpBox{
     background-color: #ab8dff;
     color: aliceblue;
-    padding: 15px;
+    padding: 5%;
+    margin: 5%;
     border-radius: 10px;
 }
 
 #paraBox{
-    padding: 20px;
+    padding: 5%;
     color: #e1d6ff;
     background: linear-gradient(180deg, royalblue, rgb(125, 125, 211));
     border-radius: 10px;
@@ -101,17 +103,14 @@ a:hover{
 }
 
 #bodyBox{
-    margin-left: 12%;
-    margin-right:12%;
-    border-radius: 5px;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 div{
     background-color: #cc12cc;
-    padding: 25px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 5%;
+    margin: 5%;
     border-radius: 15px;
 }
